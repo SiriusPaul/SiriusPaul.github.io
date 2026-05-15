@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes serve . --listen 3456 --no-clipboard)",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(Get-Content \"C:\\\\Users\\\\18259\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\D--Programs-homepage-SiriusPaul-github-io\\\\e3bfde2b-9cda-49c5-9b55-b3b22be70c19\\\\tasks\\\\bn51z2rlm.output\")",
+      "WebFetch(domain:localhost)",
+      "PowerShell(Start-Process \"http://localhost:3456\")"
+    ]
+  }
+}
