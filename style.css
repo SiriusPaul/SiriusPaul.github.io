@@ -37,6 +37,10 @@ body {
     font-size: 15px;
 }
 
+main {
+    width: 100%;
+}
+
 a {
     color: var(--color-accent);
     text-decoration: none;
@@ -227,14 +231,20 @@ a:hover {
 
 /* === Sections === */
 .section {
+    width: 100%;
     padding: var(--section-padding) 2rem;
     max-width: var(--max-width);
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-alt {
+    width: 100%;
     background: linear-gradient(180deg, #f4f2f7 0%, #edeaf3 50%, #f5f4f7 100%);
     padding: var(--section-padding) max(calc((100vw - var(--max-width)) / 2 + 2rem), 2rem);
+    display: flex;
+    flex-direction: column;
 }
 
 .section-title {
@@ -277,8 +287,8 @@ a:hover {
 /* === Research === */
 .research-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
 }
 
 .research-card {
@@ -536,26 +546,6 @@ a:hover {
         min-height: 60vh;
     }
 
-    .about-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .photo-placeholder {
-        width: 120px;
-        height: 120px;
-    }
-
-    .pub-item {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .pub-badge {
-        width: fit-content;
-    }
-
     .education-item {
         flex-direction: column;
         gap: 0.5rem;
@@ -563,6 +553,10 @@ a:hover {
 
     .research-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-item {
+        padding-bottom: 2rem;
     }
 }
 
