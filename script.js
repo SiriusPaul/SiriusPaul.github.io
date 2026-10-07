@@ -1,31 +1,22 @@
-// Header scroll effect
-const header = document.querySelector('.site-header');
-window.addEventListener('scroll', () => {
-    header.classList.toggle('scrolled', window.scrollY > 10);
+const toggle = document.querySelector('.nav-toggle');
+const links = document.querySelector('.nav-links');
+function closeMenu() {
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', 'Open menu');
+  links.classList.remove('active');
+}
+toggle.addEventListener('click', () => {
+  const open = toggle.getAttribute('aria-expanded') !== 'true';
+  toggle.setAttribute('aria-expanded', String(open));
+  toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  links.classList.toggle('active', open);
 });
-
-// Mobile nav toggle
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelector('.nav-links');
-
-navToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
+links.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
+document.addEventListener('click', event => { if (!event.target.closest('.nav')) closeMenu(); });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+    closeMenu();
+    toggle.focus();
+  }
 });
-
-// Close nav on link click
-navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-    });
-});
-
-// Fade-in on scroll
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-        }
-    });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+window.matchMedia('(min-width: 801px)').addEventListener('change', closeMenu);

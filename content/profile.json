@@ -1,0 +1,53 @@
+{
+  "name": "Yuqiao Chen",
+  "chineseName": "陈雨桥",
+  "role": "Undergraduate researcher",
+  "affiliation": "MIRALab · USTC",
+  "email": "chenyq665@mail.ustc.edu.cn",
+  "github": "https://github.com/SiriusPaul",
+  "location": "Hefei, China",
+  "intro": "Building agents that reason, act, and learn.",
+  "description": "I study how intelligent agents can learn from experience, reason with structured knowledge, and act in the real world.",
+  "about": [
+    "I'm an undergraduate researcher at <strong>USTC MIRALab</strong>, advised by <strong>Prof. Jie Wang</strong>. My work focuses on building agentic AI systems that can reason, plan, and learn from experience.",
+    "Currently I'm working on credit assignment for multi-step tool-using agents and LLM-guided adaptive tuning for solver configuration. I'm also exploring on-device LLM agent frameworks for mobile platforms."
+  ],
+  "research": [
+    {
+      "title": "Agentic Reinforcement Learning",
+      "description": "RL for multi-step tool-using and reasoning agents, self-evolving agentic systems.",
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22\"/><path d=\"M8 6a4 4 0 0 1 4 4\"/><path d=\"M16 6a4 4 0 0 0-4 4\"/><circle cx=\"12\" cy=\"10\" r=\"2\"/><path d=\"M5 17h14\"/></svg>"
+    },
+    {
+      "title": "Agentic Memory Systems",
+      "description": "Long-term structured memory and retrieval for LLM agents.",
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect width=\"8\" height=\"4\" x=\"2\" y=\"6\" rx=\"1\"/><rect width=\"8\" height=\"4\" x=\"14\" y=\"6\" rx=\"1\"/><rect width=\"8\" height=\"4\" x=\"2\" y=\"14\" rx=\"1\"/><rect width=\"8\" height=\"4\" x=\"14\" y=\"14\" rx=\"1\"/><path d=\"M6 10v4\"/><path d=\"M18 10v4\"/><path d=\"M6 10h12\"/><path d=\"M6 14h12\"/></svg>"
+    },
+    {
+      "title": "Large Language Models",
+      "description": "Post-training, alignment, and reasoning capabilities of LLMs.",
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z\"/><polyline points=\"3.27 6.96 12 12.01 20.73 6.96\"/><line x1=\"12\" y1=\"22.08\" x2=\"12\" y2=\"12\"/></svg>"
+    },
+    {
+      "title": "Graph Reasoning",
+      "description": "Structured knowledge representation and graph-based inference.",
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"5\" cy=\"6\" r=\"3\"/><circle cx=\"19\" cy=\"6\" r=\"3\"/><circle cx=\"12\" cy=\"18\" r=\"3\"/><line x1=\"7.5\" y1=\"7.5\" x2=\"10.5\" y2=\"16\"/><line x1=\"16.5\" y1=\"7.5\" x2=\"13.5\" y2=\"16\"/><line x1=\"8\" y1=\"6\" x2=\"16\" y2=\"6\"/></svg>"
+    }
+  ],
+  "education": {
+    "date": "2024 — Present",
+    "degree": "B.Sc. in Computer Science and Technology",
+    "school": "University of Science and Technology of China",
+    "detail": "School of the Gifted Young · Huaxia Computer Science Elite Class",
+    "advisor": "Prof. Jie Wang, MIRALab"
+  },
+  "honors": [
+    "ASC World Supercomputing Competition, Second Prize (2026)",
+    "Outstanding Student Scholarship, School of the Gifted Young, USTC",
+    "Huaxia Computer Science Elite Class Scholarship, USTC"
+  ],
+  "languages": [
+    "English — Fluent (TOEFL 110)",
+    "Spanish — Basic conversational (self-taught)"
+  ]
+}

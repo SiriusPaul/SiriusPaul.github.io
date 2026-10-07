@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "creditflow",
+    "name": "CreditFlow",
+    "title": "CreditFlow: Dependency-Aware Credit Assignment for Multi-Step Tool-Using Agents",
+    "subtitle": "Credit assignment for tool-using agents",
+    "date": "2026.2 — 2026.5",
+    "tags": [
+      "Agentic RL",
+      "Credit assignment"
+    ],
+    "url": "",
+    "details": [
+      "Proposed artifact-based credit attribution as the core contribution: treating intermediate artifacts as the fundamental unit for assigning credit in tool-using agent trajectories",
+      "Designed CreditFlow framework representing rollouts as auditable artifact dependency graphs with explicit producer-consumer links",
+      "Decomposed training feedback into local transition quality, responsibility transfer for upstream errors, and path-based terminal credit through validated dependency paths",
+      "Achieves <strong>9.1% average improvement</strong> over AgentFlow (ICLR 2026 Oral) while reducing inference steps by <strong>28.6%</strong> across 8 benchmarks"
+    ]
+  },
+  {
+    "slug": "leat",
+    "name": "LEAT",
+    "title": "LEAT: LLM-Guided Experience-Aware Adaptive Tuning for MIP Solver Configuration",
+    "subtitle": "Experience-aware solver configuration",
+    "date": "2025.10 — 2026.4",
+    "tags": [
+      "LLM agents",
+      "Optimization"
+    ],
+    "url": "",
+    "details": [
+      "Designed and implemented a hierarchical experience repository that summarizes similar historical tuning trials into high-level nodes",
+      "Built graph construction and hierarchical retrieval mechanisms for efficient LLM-guided experience lookup",
+      "Outperforms default configuration with <strong>over 70% win rate</strong> across all tested datasets in one-shot setting",
+      "Achieves stronger early-stage and final performance under iterative tuning with only 40%—60% of the evaluation budget",
+      "Framework deployed in industrial applications; a national invention patent has been filed"
+    ]
+  },
+  {
+    "slug": "asc26",
+    "name": "ASC26",
+    "title": "ASC26 Supercomputing Competition — World Model Acceleration",
+    "subtitle": "World model acceleration",
+    "date": "2026.1 — 2026.3",
+    "tags": [
+      "HPC",
+      "World models"
+    ],
+    "url": "",
+    "details": [
+      "Member of HPC Team SwanGeese of USTC; accelerated <a href=\"https://unigen-x.github.io/unifolm-world-model-action.github.io/\" target=\"_blank\" rel=\"noopener noreferrer\">UniFoLM-WMA-0</a> world model (developed by Unitree Robotics) on 4×8 A100 node",
+      "Implemented high-level feature caching for diffusion models (inspired by DeepCache, CVPR 2024)",
+      "Combined cross-attention KV cache optimization with parallel execution strategies",
+      "Achieved <strong>3.7× speedup</strong> over baseline while preserving output quality"
+    ]
+  },
+  {
+    "slug": "android-agent-runtime",
+    "name": "AndroidAgentRuntime",
+    "title": "AndroidAgentRuntime",
+    "subtitle": "On-device intelligence for Android",
+    "date": "2026.2 — Present",
+    "tags": [
+      "Mobile agents",
+      "Systems"
+    ],
+    "url": "",
+    "details": [
+      "Designing an on-device LLM agent framework for Android that operates mobile devices through low-level system API understanding",
+      "Built a lightweight system interaction layer optimized for LLM comprehension",
+      "Ported high-throughput LLM deployment tools (similar to vLLM) to Android via Vulkan API for GPU inference"
+    ]
+  }
+]

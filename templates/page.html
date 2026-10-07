@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#f4f6f2">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:type" content="{{ogType}}">
+  <title>{{title}}</title>
+  <link rel="icon" href="{{root}}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{root}}style.css">
+  <script src="{{root}}script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-brand" href="{{root}}index.html" aria-label="{{name}}, home"><span>{{name}}</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="{{root}}index.html#about">About</a>
+        <a href="{{root}}index.html#research">Research</a>
+        <a href="{{root}}index.html#projects">Projects</a>
+        <a href="{{root}}blog/index.html" {{blogCurrent}}>Blog</a>
+        <a href="{{root}}index.html#education">Education</a>
+        <a class="nav-contact" href="{{root}}index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">{{content}}</main>
+  <footer class="site-footer container"><a class="footer-name" href="{{root}}index.html">{{name}} <span>{{chineseName}}</span></a><div><span>© {{year}} {{name}}</span><a href="{{root}}blog/index.html">Blog ↗</a><a href="{{github}}">GitHub ↗</a></div></footer>
+</body>
+</html>
